@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charsets = 'UTF-8'>
+        <meta name = 'viewport' contents = 'width = device-width, initial-scale = 1.0'>
+        <title>Workout App</title>
+        <link rel='stylesheet' href="node_modules/bootstrap/dist/css/bootstrap.css">
+    </head>
+    <body class ='container'>
+        <br>
+
+        <div class = 'card'>
+            <div class = 'card-body'>
+                <div class = 'row'>
+                    <div class = 'col-sm'>
+                        <div class = 'form-group'>
+                            <label for = 'new-program-name'> Program Name</label>
+                            <input type = 'text' class = 'form-control' id = 'new-program-name'>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button id = 'new-program' class = 'btn btn-primary form-control'>Create</button>
+                </div>
+            </div>
+        </div> <br>
+
+        <div id = 'programs'>
+
+        </div>
+
+        <table id = 'list' class = 'table table-dark table-striped'>
+            <th>Program</th>
+            <th>Workout</th>
+            <th>Sets</th>
+            <th>Reps</th>
+          
+
+        </table>
+
+
+
+        <script> src = 'a4.js' </script>
+        <script> src='node_modules/jquery/dist/jquery.js'</script>
+        <script> src = 'node_modules/bootstrap/dist/js/bootstrap.bundle.js'</script>
+    </body>
+</html>
